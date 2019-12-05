@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "bug.report"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "jhipster",
+    "packageName": "bug.report",
+    "packageFolder": "bug/report",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YmEzNzJjNTdjZWEwYWRmNTU5ZjJiNzQ0MmY0YjJlNTUwYmU1NWYwY2NiNjJkZTY4MzViYjUyNTE3MmRlOTgxZGQ4NTA3MzcyMDFjMzg3YzczNWUyYmM4YzNlMDJlZTFjZGU5ZWJlMGI1Nzc4ZmIwYzVmODRhNTkwYzc1YmIwMjQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
