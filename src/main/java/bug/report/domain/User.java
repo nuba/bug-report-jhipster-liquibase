@@ -21,7 +21,10 @@ import java.util.Set;
  * A user.
  */
 @Entity
-@Table(name = "jhi_user")
+@Table(name = "jhi_user", uniqueConstraints = {
+    @UniqueConstraint(name = "ux_user_login", columnNames = "login"),
+    @UniqueConstraint(name = "ux_user_email", columnNames = "email"),
+})
 public class User extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
